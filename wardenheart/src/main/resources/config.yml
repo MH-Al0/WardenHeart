@@ -1,0 +1,17 @@
+# Warden Heart Plugin Configuration File
+
+# Reward type: PERMANENT_HEALTH, HEART_ITEM, or TEMPORARY_BUFF (choose one here, default is PERMANENT_HEALTH)
+reward-type: "PERMANENT_HEALTH"
+
+# Settings for PERMANENT_HEALTH
+health-bonus: 2.0  # How many hearts to add (2.0 = 1 heart)
+
+# Settings for HEART_ITEM 
+heart-item-material: "RED_DYE"
+
+# Settings for TEMPORARY_BUFF
+buff-duration: 300  # Duration in seconds (300 = 5 minutes)
+buff-amplifier: 0   # Potion effect amplifier (0 = level 1) 
+
+# Messages
+reward-message: "&a&lYou have been granted an extra heart for defeating the Warden!"

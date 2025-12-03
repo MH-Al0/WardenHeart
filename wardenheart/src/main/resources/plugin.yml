@@ -1,0 +1,6 @@
+name: WardenHeart
+version: 1.0.0
+main: com.mh.wardenheart.WardenHeartPlugin
+api-version: '1.21'
+author: MH
+description: Rewards players with extra hearts for defeating Wardens
